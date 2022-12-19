@@ -1,0 +1,252 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+header{
+   display: flex;
+   background-color: black;
+   color: white;
+   font-size: larger;
+   /* text-align: left; */
+   font-weight: bold;
+   /* border: solid black 5px; */
+   font-family: 'chirp',cursive;
+   align-items: center;
+   height: 12vh;
+   overflow: hidden;
+}
+/* 
+header ul li a {
+   text-decoration: none;
+   color: white;
+} */
+.logo-img{
+  margin: 8px -38px 0px -40px;
+  background-color: black;
+  color: black;
+  overflow: hidden;
+  position: relative;
+  left: 50px;
+}
+.home-nav{
+    margin: 0;
+    display: flex;
+    position: relative;
+    left: 100px;
+ }
+ 
+ .nav1 {
+    margin: 0px 28px 8px 10px;
+ }
+ 
+ .nav1 a {
+    text-decoration: none;
+    color: white;
+ }
+ 
+ .nav1 a:hover {
+    /* font-weight: bolder; */
+    /* border: 3px white solid; */
+    transform: scale(1.2);
+    color: rgb(255, 185, 72);
+    font-size: 20px;
+ }
+ 
+ .head{
+    background-color: rgb(0, 30, 48);
+    height: 5vh;
+ }
+ 
+ .head ul li{
+    display: inline;
+    margin:2px;
+    padding-left: 8px;
+    padding-right: 10px;
+    font-weight: bold;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+   
+ }
+ 
+ .head ul li a {
+    text-decoration: none;
+    color: white;
+ }
+ 
+ .head ul li:hover{
+    /* color:rgb(247, 219, 99); */
+    border: 3px white solid;
+ }
+ 
+ .search-btn{
+    color: black;
+    width: 70px;
+    height: 35px;
+    font-family: monospace;
+    font-weight: bold;
+    font-size: 15px;
+    margin: 0px 0px 7px 0px;
+    position: relative;
+    left: 95px;
+    top: 4px;
+    border-radius: 20px;
+    cursor: pointer;
+ }
+ 
+ .search-bar{
+    padding: 7px;
+    margin: 0px 0px 7px 0px;
+    background: rgb(255, 255, 255);
+    font-size: 17px;
+    position: relative;
+    left: 130px;
+    border-radius: 18px;
+    border:3px black;
+    width:400px;
+  }
+ 
+  .sign-in{
+    margin: 0px 70px 7px 70px;
+    height: 40px;
+    font-size: 19px;
+    width: 75px;
+    background-color: rgb(247, 219, 99);
+    font-weight: bold;
+    font-family: chirp,cursive;
+    border-radius: 20px;
+ }
+ .sign-in:hover{
+     background-color: rgb(228, 170, 104);
+     transition: 300ms ease-in-out;
+     color: rgb(224, 224, 224);
+ }
+ 
+ .cart-img{
+    margin: 0px 0px 9px 0px;
+    cursor: pointer;
+ }
+ .cart-img:hover{
+     width: 50px;
+     background-color: white;
+     border-radius: 10px;
+     transition: 250ms ease-in-out;
+ }
+ .hover-3 {
+    --b: 0.1em;   /* the thickness of the line */
+    --c: #1095c1; /* the color */
+    
+    color: #0000;
+    padding-block: var(--b);
+    background: 
+      linear-gradient(var(--c) 50%,#000 0) 0% calc(100% - var(--_p,0%))/100% 200%,
+      linear-gradient(var(--c) 0 0) 0% var(--_p,0%)/var(--_p,0%) var(--b) no-repeat;
+    -webkit-background-clip: text,padding-box;
+            background-clip: text,padding-box;
+    transition: .3s var(--_s,0s) linear,background-size .3s calc(.3s - var(--_s,0s));
+  }
+  .hover-3:hover {
+    --_p: 100%;
+    --_s: .3s;
+  }
+  .container3{
+    overflow: hidden;
+ }
+ .back a {
+  text-decoration: none;
+  color: white;
+  font-family: chirp,cursive;
+}
+
+.back a:hover{
+  color: white;
+  font-weight: bolder;
+}
+
+.connect li a{
+  text-decoration: none;
+  color: white;
+  font-family: chirp,cursive;
+}
+
+
+
+
+.back{
+  background-color: rgb(9, 46, 68);
+  line-height: 3; 
+  text-align: center;
+  color: white;
+}
+.end{
+  padding-top: 40px;
+  background-color: rgb(0, 30, 48);
+  color: white;
+  display: flex;
+  padding-left: 150px;
+  font-family: chirp,cursive;
+}
+.end h2{
+  padding-right: 150px;
+  
+  
+}
+.end li{
+  color: white;
+  display: block;
+  line-height: 2;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+
+.choice{
+  background-color: rgb(0, 30, 48);
+  color: white;
+  padding-top: 50px;
+  display: flex; 
+  padding-left: 600px;
+ }
+ .body1{
+    height: 500px;
+ }
+ .body1 h1{
+    font-family: chirp,cursive;
+    font-size: 20px;
+ }
+ .body1 h2{
+    font-family: chirp,cursive;
+    font-size: 30px;
+    font-weight: 700;
+ }
+ .body1 ul a{
+    font-family: chirp,sans-serif;
+    font-size: 20px;
+    padding: 10px;
+    margin: 20px;
+    position: relative;
+    left: 600px;
+    font-weight: 700;
+ }
+ .body1 h5{
+    font-family: chirp,cursive;
+    position: relative;
+    left: 650px;
+    top: 40px;
+ }
+.w3-dropdown-hover{
+    position: relative;
+    left: 930px;
+}
+.body1 p{
+    position: relative;
+    left: 650px;
+    top: 200px;
+}
+.vord{
+    position: relative;
+    left: 1112px;
+    top: 176px;
+    text-decoration: none;
+    color: #3474ec;
+}
+.vord:hover{
+    text-decoration:underline;
+}

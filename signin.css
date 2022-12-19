@@ -1,0 +1,110 @@
+*{
+    padding: none;
+    margin: none;
+}
+.logo{
+    width: 20%;
+    position: relative;
+    left:700px ;
+}
+.signinform{
+    position: absolute;
+    left: 700px;
+    top: 160px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 20px 20px, rgba(0, 0, 0, 0.12) 0px -12px 20px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    height: 300px;
+    width: 400px;
+    border-radius: 20px;
+    padding: 20px;
+}
+.signinform h1{
+    text-align: left;
+    font-family: chirp,sans-serif;
+    font-weight: 600;
+}
+.sin{
+    font-family: chirp,cursive;
+    font-weight: 600;
+    position: relative;
+    top: -18px;
+}
+.check{
+    position: absolute;
+    left: 60px;
+    top:215px ;
+}
+.dang{
+    position: relative;
+    left: 55px;
+    top: 18px;
+    font-family: chirp,sans-serif;
+}
+.mail{
+    border-radius: 20px;
+}
+form{
+    position: relative;
+    left: 40px;
+}
+
+input:focus-visible {
+    outline: 2px solid rgb(255, 160, 71);
+    border-radius: 3px;
+    transition: 150ms ease-in-out;
+}
+
+select:focus-visible {
+    border: 2px dashed rgb(255, 160, 71);
+    border-radius: 3px;
+    outline: none;
+    transition: 150ms ease-in-out;
+}
+.btn{
+    position: relative;
+    left: 40px;
+    top: 8px;
+    width: 80%;
+    background-color:rgb(255, 225, 171);
+    border: 1px groove rgb(196, 196, 196);
+    cursor: pointer;
+}
+.btn:hover{
+    background-color: rgb(255, 202, 102);
+    transition: 200ms ease-in-out;
+}
+.shit{
+    font-family: chirp,cursive;
+    font-size: 13px;
+    width: 80%;
+    position: relative;
+    left: 70px;
+    top: 10px;
+}
+.footer{
+    position: absolute;
+    left: 800px;
+    top: 500px;
+}
+.shit1{
+    position: relative;
+    left: 37px;
+}
+.shit2{
+    position: relative;
+    left: 100px;
+}
+.amac{
+    width: 380px;
+    position: relative;
+    left: -80px;
+    cursor: pointer;
+}
+.footer ul li{
+    list-style: none;
+    float: left;
+    margin: 20px;
+    color: rgb(0, 132, 255);
+    position: relative;
+    left: -120px;
+    top: -50px;
+}
